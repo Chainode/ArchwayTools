@@ -38,7 +38,7 @@ sudo nano /etc/prometheus/prometheus.yml
 ### Configuration section for scraping  
 ```
     static_configs:  
-    - targets: ['localhost:9091']  
+    - targets: ['localhost:9092']  
   
   - job_name: 'Archway-Validator'  
     static_configs:  
@@ -77,7 +77,7 @@ ExecStart=/usr/local/bin/prometheus \
     --storage.tsdb.path /var/lib/prometheus/ \  
     --web.console.templates=/etc/prometheus/consoles \  
     --web.console.libraries=/etc/prometheus/console_libraries\  
-    --web.listen-address="0.0.0.0:9091"  
+    --web.listen-address="0.0.0.0:9092"  
   
 [Install]  
 WantedBy=multi-user.target  
