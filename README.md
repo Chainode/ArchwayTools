@@ -22,4 +22,5 @@ For this you will have to download the ArchwayValidator.json from this repo and 
 As a next step you should make sure the right Prometheus connection has been selected and if necessary adapt the Dashboard. 
 
 ## Final Result  
+![image](https://user-images.githubusercontent.com/53407923/169146336-3221cfbb-c99e-43a6-8d6f-c80fc62e200e.png)
 
