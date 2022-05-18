@@ -18,7 +18,7 @@ In combination with an Alertmanager it becomes a viable solution to monitor and 
 * Grafana Pie Chart plugin  --> please check guide InstallGrafana in this repo: https://github.com/Chainode/ArchwayTools/blob/main/InstallGrafana.md  
 
 ## Import Archway Validator Dashboard into Grafana  
-For this you will have to download the ArchwayValidator.json from this repo and then in Grafana go to *Dashboards* -> *Manage* -> *Import* -> *Upload JSON file* and select the ArchwayValidator.json to be uploaded.  
+For this you will have to download the ArchwayValidator.json from this repo and then in Grafana go to *Dashboards* -> *Manage* -> *Import* -> *Upload JSON file* and select the Archway Validator Dashboard.json to be uploaded.  
 As a next step you should make sure the right Prometheus connection has been selected and if necessary adapt the Dashboard. 
 
 ## Final Result  
